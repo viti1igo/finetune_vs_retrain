@@ -1,0 +1,27 @@
+# macOS AppleDouble / Finder sidecar files (never commit)
+._*
+.DS_Store
+
+# Local editor / MCP
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Third-party tool clones (clone separately; see README)
+tools/
+
+# Large raw sequence / embedding artifacts (GitHub file and repo limits)
+data/dataset_A_phagehostlearn/klebsiella_genomes/
+*.fasta
+*.fa
+*.fna
+features/
+*.zip
